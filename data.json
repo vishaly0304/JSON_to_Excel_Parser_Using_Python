@@ -1,0 +1,340 @@
+{
+  "states": [
+    {
+      "name": "State1",
+      "colleges": [
+        {
+          "name": "College1",
+          "standards": [
+            {
+              "standard": "10th Grade",
+              "students": [
+                {
+                  "name": "Student1",
+                  "subjects": {
+                    "Math": 75,
+                    "Science": 78,
+                    "Social Studies": 82,
+                    "English": 80,
+                    "Hindi": 85,
+                    "Marathi": 70
+                  }
+                },
+                {
+                  "name": "Student2",
+                  "subjects": {
+                    "Math": 82,
+                    "Science": 88,
+                    "Social Studies": 86,
+                    "English": 90,
+                    "Hindi": 87,
+                    "Marathi": 80
+                  }
+                }
+              ]
+            },
+            {
+              "standard": "11th Grade",
+              "students": [
+                {
+                  "name": "Student1",
+                  "subjects": {
+                    "Math": 88,
+                    "Physics": 82,
+                    "Chemistry": 85,
+                    "Computer Science": 80,
+                    "English": 87
+                  }
+                },
+                {
+                  "name": "Student2",
+                  "subjects": {
+                    "Math": 90,
+                    "Physics": 85,
+                    "Chemistry": 88,
+                    "Computer Science": 83,
+                    "English": 89
+                  }
+                }
+              ]
+            },
+            {
+              "standard": "12th Grade",
+              "students": [
+                {
+                  "name": "Student1",
+                  "subjects": {
+                    "Math": 85,
+                    "Physics": 78,
+                    "Chemistry": 82,
+                    "Biology": 75,
+                    "English": 88
+                  }
+                },
+                {
+                  "name": "Student2",
+                  "subjects": {
+                    "Math": 92,
+                    "Physics": 89,
+                    "Chemistry": 91,
+                    "Biology": 86,
+                    "English": 90
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "College2",
+          "standards": [
+            {
+              "standard": "10th Grade",
+              "students": [
+                {
+                  "name": "Student1",
+                  "subjects": {
+                    "Math": 70,
+                    "Science": 72,
+                    "Social Studies": 75,
+                    "English": 78,
+                    "Marathi": 80
+                  }
+                },
+                {
+                  "name": "Student2",
+                  "subjects": {
+                    "Math": 80,
+                    "Science": 85,
+                    "Social Studies": 83,
+                    "English": 88,
+                    "Marathi": 85
+                  }
+                }
+              ]
+            },
+            {
+              "standard": "11th Grade",
+              "students": [
+                {
+                  "name": "Student1",
+                  "subjects": {
+                    "Math": 82,
+                    "Physics": 76,
+                    "Chemistry": 78,
+                    "Computer Science": 74,
+                    "English": 80
+                  }
+                },
+                {
+                  "name": "Student2",
+                  "subjects": {
+                    "Math": 88,
+                    "Physics": 84,
+                    "Chemistry": 86,
+                    "Computer Science": 82,
+                    "English": 85
+                  }
+                }
+              ]
+            },
+            {
+              "standard": "12th Grade",
+              "students": [
+                {
+                  "name": "Student1",
+                  "subjects": {
+                    "Math": 90,
+                    "Physics": 88,
+                    "Chemistry": 87,
+                    "Biology": 85,
+                    "English": 89
+                  }
+                },
+                {
+                  "name": "Student2",
+                  "subjects": {
+                    "Math": 93,
+                    "Physics": 90,
+                    "Chemistry": 92,
+                    "Biology": 88,
+                    "English": 91
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "State2",
+      "colleges": [
+        {
+          "name": "College1",
+          "standards": [
+            {
+              "standard": "10th Grade",
+              "students": [
+                {
+                  "name": "Student1",
+                  "subjects": {
+                    "Math": 78,
+                    "Science": 80,
+                    "Social Studies": 82,
+                    "English": 85,
+                    "Hindi": 83,
+                    "Marathi": 75
+                  }
+                },
+                {
+                  "name": "Student2",
+                  "subjects": {
+                    "Math": 82,
+                    "Science": 85,
+                    "Social Studies": 88,
+                    "English": 90,
+                    "Hindi": 87,
+                    "Marathi": 80
+                  }
+                }
+              ]
+            },
+            {
+              "standard": "11th Grade",
+              "students": [
+                {
+                  "name": "Student1",
+                  "subjects": {
+                    "Math": 75,
+                    "Physics": 72,
+                    "Chemistry": 78,
+                    "Computer Science": 74,
+                    "English": 80
+                  }
+                },
+                {
+                  "name": "Student2",
+                  "subjects": {
+                    "Math": 88,
+                    "Physics": 84,
+                    "Chemistry": 86,
+                    "Computer Science": 82,
+                    "English": 85
+                  }
+                }
+              ]
+            },
+            {
+              "standard": "12th Grade",
+              "students": [
+                {
+                  "name": "Student1",
+                  "subjects": {
+                    "Math": 90,
+                    "Physics": 88,
+                    "Chemistry": 87,
+                    "Biology": 85,
+                    "English": 89
+                  }
+                },
+                {
+                  "name": "Student2",
+                  "subjects": {
+                    "Math": 92,
+                    "Physics": 90,
+                    "Chemistry": 91,
+                    "Biology": 88,
+                    "English": 91
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "College2",
+          "standards": [
+            {
+              "standard": "10th Grade",
+              "students": [
+                {
+                  "name": "Student1",
+                  "subjects": {
+                    "Math": 75,
+                    "Science": 78,
+                    "Social Studies": 80,
+                    "English": 82,
+                    "Hindi": 85,
+                    "Marathi": 78
+                  }
+                },
+                {
+                  "name": "Student2",
+                  "subjects": {
+                    "Math": 82,
+                    "Science": 85,
+                    "Social Studies": 88,
+                    "English": 90,
+                    "Hindi": 87,
+                    "Marathi": 85
+                  }
+                }
+              ]
+            },
+            {
+              "standard": "11th Grade",
+              "students": [
+                {
+                  "name": "Student1",
+                  "subjects": {
+                    "Math": 78,
+                    "Physics": 80,
+                    "Chemistry": 82,
+                    "Computer Science": 85,
+                    "English": 87
+                  }
+                },
+                {
+                  "name": "Student2",
+                  "subjects": {
+                    "Math": 88,
+                    "Physics": 85,
+                    "Chemistry": 87,
+                    "Computer Science": 90,
+                    "English": 89
+                  }
+                }
+              ]
+            },
+            {
+              "standard": "12th Grade",
+              "students": [
+                {
+                  "name": "Student1",
+                  "subjects": {
+                    "Math": 90,
+                    "Physics": 88,
+                    "Chemistry": 87,
+                    "Biology": 85,
+                    "English": 89
+                  }
+                },
+                {
+                  "name": "Student2",
+                  "subjects": {
+                    "Math": 92,
+                    "Physics": 90,
+                    "Chemistry": 91,
+                    "Biology": 88,
+                    "English": 91
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
