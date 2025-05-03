@@ -2,7 +2,9 @@ import json
 import pandas as pd
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Border, Side, Alignment
+import pdb
 
+#pdb.set_trace() 
 # Load JSON data from a file
 try:
     with open('data.json', 'r') as file:
@@ -14,6 +16,7 @@ except FileNotFoundError:
     print("File not found! Ensure 'data.json' exists in the correct location.")
     exit()
 
+
 # List to store data for creating a DataFrame
 rows = []
 all_subjects = set()
@@ -24,6 +27,8 @@ for state in data['states']:
         for standard in college['standards']:
             for student in standard['students']:
                 all_subjects.update(student['subjects'].keys())
+#pdb.set_trace() 
+#print(all_subjects)
 
 # Extract data into rows
 for state in data['states']:
@@ -43,9 +48,12 @@ for state in data['states']:
                 }
                 row.update(student['subjects'])
                 rows.append(row)
+#pdb.set_trace() 
+#print(rows)
 
 # Create a DataFrame from the rows, removing duplicates just in case
 df = pd.DataFrame(rows).drop_duplicates()
+#print(df)
 
 # Create a new Excel workbook
 workbook = openpyxl.Workbook()
